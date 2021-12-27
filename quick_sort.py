@@ -19,6 +19,4 @@ def quick_sort(A_array):
     Left_array  = quick_sort(A_array[0:pivot_index])
     Right_array = quick_sort(A_array[pivot_index+1:n])
 
-    #sorted_array = Left_array + [A_array[pivot_index]] + Right_array
-
     return A_array 
